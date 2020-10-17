@@ -12,7 +12,7 @@ void setup() {
   
   delay(random(500,2000));   // delay for random time
   Serial.begin(9600);
-  pinMode(LMP1, );      // set Motor pins as output
+  pinMode(LMP1, OUTPUT);      // set Motor pins as output
   pinMode(LMN2, OUTPUT);
   pinMode(RMP3, OUTPUT);
   pinMode(RMN4, OUTPUT);
